@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		DD38927B2982485600F9849D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38927A2982485600F9849D /* AppDelegate.swift */; };
 		DD38927D2982485600F9849D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38927C2982485600F9849D /* SceneDelegate.swift */; };
-		DD38927F2982485600F9849D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38927E2982485600F9849D /* ViewController.swift */; };
+		DD38927F2982485600F9849D /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38927E2982485600F9849D /* FirstVC.swift */; };
 		DD3892822982485600F9849D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3892802982485600F9849D /* Main.storyboard */; };
 		DD3892842982485C00F9849D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3892832982485C00F9849D /* Assets.xcassets */; };
 		DD3892872982485C00F9849D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3892852982485C00F9849D /* LaunchScreen.storyboard */; };
+		DD38928F2982517800F9849D /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38928E2982517800F9849D /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD3892772982485600F9849D /* PhotoFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3892772982485600F9849D /* BiometricAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiometricAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD38927A2982485600F9849D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD38927C2982485600F9849D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD38927E2982485600F9849D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD38927E2982485600F9849D /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		DD3892812982485600F9849D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD3892832982485C00F9849D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD3892862982485C00F9849D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD3892882982485C00F9849D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD38928E2982517800F9849D /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		DD38926E2982485600F9849D = {
 			isa = PBXGroup;
 			children = (
-				DD3892792982485600F9849D /* PhotoFrame */,
+				DD3892792982485600F9849D /* BiometricAuthentication */,
 				DD3892782982485600F9849D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,32 @@
 		DD3892782982485600F9849D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD3892772982485600F9849D /* PhotoFrame.app */,
+				DD3892772982485600F9849D /* BiometricAuthentication.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD3892792982485600F9849D /* PhotoFrame */ = {
+		DD3892792982485600F9849D /* BiometricAuthentication */ = {
 			isa = PBXGroup;
 			children = (
 				DD38927A2982485600F9849D /* AppDelegate.swift */,
 				DD38927C2982485600F9849D /* SceneDelegate.swift */,
-				DD38927E2982485600F9849D /* ViewController.swift */,
+				DD38927E2982485600F9849D /* FirstVC.swift */,
 				DD3892802982485600F9849D /* Main.storyboard */,
 				DD3892832982485C00F9849D /* Assets.xcassets */,
 				DD3892852982485C00F9849D /* LaunchScreen.storyboard */,
 				DD3892882982485C00F9849D /* Info.plist */,
+				DD38928E2982517800F9849D /* SecondVC.swift */,
 			);
-			path = PhotoFrame;
+			path = BiometricAuthentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD3892762982485600F9849D /* PhotoFrame */ = {
+		DD3892762982485600F9849D /* BiometricAuthentication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD38928B2982485C00F9849D /* Build configuration list for PBXNativeTarget "PhotoFrame" */;
+			buildConfigurationList = DD38928B2982485C00F9849D /* Build configuration list for PBXNativeTarget "BiometricAuthentication" */;
 			buildPhases = (
 				DD3892732982485600F9849D /* Sources */,
 				DD3892742982485600F9849D /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = PhotoFrame;
+			name = BiometricAuthentication;
 			productName = PhotoFrame;
-			productReference = DD3892772982485600F9849D /* PhotoFrame.app */;
+			productReference = DD3892772982485600F9849D /* BiometricAuthentication.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD3892722982485600F9849D /* Build configuration list for PBXProject "PhotoFrame" */;
+			buildConfigurationList = DD3892722982485600F9849D /* Build configuration list for PBXProject "BiometricAuthentication" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD3892762982485600F9849D /* PhotoFrame */,
+				DD3892762982485600F9849D /* BiometricAuthentication */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD38927F2982485600F9849D /* ViewController.swift in Sources */,
+				DD38927F2982485600F9849D /* FirstVC.swift in Sources */,
 				DD38927B2982485600F9849D /* AppDelegate.swift in Sources */,
+				DD38928F2982517800F9849D /* SecondVC.swift in Sources */,
 				DD38927D2982485600F9849D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +292,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotoFrame/Info.plist;
+				INFOPLIST_FILE = BiometricAuthentication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BiometricAuthentication;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -299,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.PhotoFrame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.BiometricAuthentication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,7 +320,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotoFrame/Info.plist;
+				INFOPLIST_FILE = BiometricAuthentication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BiometricAuthentication;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.PhotoFrame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.BiometricAuthentication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD3892722982485600F9849D /* Build configuration list for PBXProject "PhotoFrame" */ = {
+		DD3892722982485600F9849D /* Build configuration list for PBXProject "BiometricAuthentication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD3892892982485C00F9849D /* Debug */,
@@ -346,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD38928B2982485C00F9849D /* Build configuration list for PBXNativeTarget "PhotoFrame" */ = {
+		DD38928B2982485C00F9849D /* Build configuration list for PBXNativeTarget "BiometricAuthentication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD38928C2982485C00F9849D /* Debug */,
