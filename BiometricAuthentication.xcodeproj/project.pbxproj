@@ -294,6 +294,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BiometricAuthentication/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BiometricAuthentication;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Indentify yourself";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,6 +323,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BiometricAuthentication/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BiometricAuthentication;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Indentify yourself";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
